@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Latitude vs. Wind Speed</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <style>
+  
+    .footer {
+      bottom: 0;
+      width: 100%;
+      height: 60px;
+      line-height: 50px;
+      background-color: #1d1d1d83;
+    }
+    .body{
+      background-color: #49494983;
+    }
+  </style>
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <a class="navbar-brand text-light bg-info text-center" style="width:80px;height:40px;" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-info" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-info" href="temperature.html">Max Temperature</a>
+            <a class="dropdown-item text-info" href="humidity.html">Humidity</a>
+            <a class="dropdown-item text-info" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item text-info" href="windSpeed.html">Wind Speed</a>
+            
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-info" href="comparison.html">Comparison
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item active text-info">
+          <a class="nav-link text-info" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-7">
+        <h1 class="text-center mb-3 text-info">Wind Speed</h1>
+        <hr class="mb-3 ">
+        <img src=".\Resources\assets\images\Fig4.png" width="700" height="500" class=" float-center" alt="">
+        <p>Cities close to the equator appear to have significantly less wind than others. 
+            Alternatively, cities between 40 and 80 degrees North  are by far the windiest, and have wind speeds than their Southern counterparts.</p>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-4">
+        <h1 class="text-center mb-3 text-info">Visualizations:</h1>
+        <div class="row m-2">
+          <div class="col-sm text-center p-2">
+            <a href='temperature.html'>
+                    <img src=".\Resources\assets\images\Fig1.png" width="150" height="150"/>
+            </a>
+          </div>
+          <div class="col-sm text-center p-2">
+                <a href='humidity.html'>
+                        <img src=".\Resources\assets\images\Fig2.png" width="150" height="150"/>
+                </a>          </div>
+        </div>
+        <div class="row m-2">
+          <div class="col-sm text-center p-2">
+                <a href='cloudiness.html'>
+                        <img src=".\Resources\assets\images\Fig3.png" width="150" height="150"/>
+                </a>          </div>
+          <div class="col-sm text-center p-2">
+                <a href='windSpeed.html'>
+                        <img src=".\Resources\assets\images\Fig4.png" width="150" height="150"/>
+                </a>          
+            </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- <script>
+      console.log('HI THERE');
+      let inputbox = document.getElementById('searchBox');
+      let footerVal = document.getElementById('textHere');
+      inputbox.addEventListener('keyup', function () {
+        console.log('You typed in something my friend')
+        let myval = inputbox.value;
+        footerVal.innerHTML = myval;
+      })
+    </script> -->
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-light text-center">@Copyright Coding Bootcamp 2018</p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
